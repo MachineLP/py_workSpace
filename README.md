@@ -6,3 +6,5 @@ py_txt.py : 统计文字的个数。（python3中字典排序的问题）
 py_plt.py ：使用python画图。
 
 threads.py：python中的多线程。
+
+img_video.py：将图片转为视频保存。
