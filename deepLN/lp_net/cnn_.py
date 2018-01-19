@@ -84,7 +84,7 @@ def train(num_batches, batch_size, learning_rate):
             # Periodically check the validation or training loss and accuracy
             if batch_i % 100 == 0:
                 global v_images, v_labels
-                v_images, v_labels = get_next_batch_from_path(valid_data, valid_label, batch_i % int(image_n*0.9/batch_size), batch_size=batch_size, is_train=False)
+                v_images, v_labels = get_next_batch_from_path(valid_data, valid_label, batch_i % int(image_n*0.1/batch_size), batch_size=batch_size, is_train=False)
                 v_labels = np.reshape(v_labels,[-1,1])
                 v_labels = sess.run(one_hot, feed_dict={oh_label:v_labels})
                 loss, acc = sess.run([model_loss, accuracy], {inputs: v_images,
