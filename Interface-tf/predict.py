@@ -39,7 +39,7 @@ def GPU_config(rate=0.99):
     return gpuConfig
 
 
-class HyqAlg(object):
+class LPAlg(object):
     '''
     __instance = None
     _singleton_lock = Lock()
@@ -48,7 +48,7 @@ class HyqAlg(object):
 
         if cls.__instance is None:
             cls._singleton_lock.acquire()
-            cls.__instance = (super(HyqAlg, cls).__new__(cls, *args, **kwargs), cls.__instance)[
+            cls.__instance = (super(LPAlg, cls).__new__(cls, *args, **kwargs), cls.__instance)[
                 cls.__instance is not None]
             cls._singleton_lock.release()
 
@@ -106,7 +106,7 @@ class HyqAlg(object):
             model_1 = sess_def(pb_path_1)
             return [model_1]
 
-        path_1 = get_path(pb_path_1, HyqAlg.PB_PATH[0])
+        path_1 = get_path(pb_path_1, LPAlg.PB_PATH[0])
         self._pb_path = [path_1]
 
         self.model = multi_model_def(self._pb_path[0])
@@ -138,7 +138,7 @@ class HyqAlg(object):
                 image = plot(img)
                 #print (image)
                 img = cv2.resize(image, (100, 100))
-                #img = HyqAlg._prewhiten(img)
+                #img = LPAlg._prewhiten(img)
                 img = (img-127.5)
                 return img,1
             except:
@@ -179,7 +179,7 @@ class HyqAlg(object):
                 null_data.append([])
             return null_data#, null_data
 
-        label_indices_val = [HyqAlg.CLASS_NUMBER for index in range(ncount)]
+        label_indices_val = [LPAlg.CLASS_NUMBER for index in range(ncount)]
 
         # run
         idx = 0     # model index
@@ -254,7 +254,7 @@ def ProjectInterface(image_path_list, proxy=None):
 # 下面是用于以上模块测试的。
 '''
 image_path_list = ["lp.jpg"]
-alg_core = HyqAlg(pb_path_1="model/frozen_model.pb")
+alg_core = LPAlg(pb_path_1="model/frozen_model.pb")
 out = ProjectInterface(image_path_list, alg_core)
 print (out)'''
 
@@ -284,7 +284,7 @@ if __name__ == "__main__":
                         help='Add image url to a list')
     args = parser.parse_args()
 
-    alg_core = HyqAlg(pb_path_1="model/frozen_model.pb")
+    alg_core = LPAlg(pb_path_1="model/frozen_model.pb")
     result = None
 
     if args.url_from_network:
