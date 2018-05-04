@@ -74,7 +74,7 @@ int main(int argc, char** argv)
     Image.convertTo(Image2, CV_32FC1);
     Image = Image2;
     // Image = Image-mean;
-    Image = Image / 255.0 - 0,5;
+    Image = Image / 255.0 - cv::Scalar(0.5, 0.5, 0.5);
     Image = Image * 2;
     const float * source_data = (float*) Image.data;
     
