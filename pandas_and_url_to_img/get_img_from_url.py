@@ -30,10 +30,11 @@ if __name__ == '__main__':
     for line in File:
         try:
             img_url= line.split(' ')
-
+            # 获取到id作为文件名字
+            path_i = img_url[0]
             file_path = 'img/' + str(path_i)
             # 下面保存的是模版
-            sample_img_url = img_url[:-1]
+            sample_img_url = img_url[1:-1]
             for s_img_url in sample_img_url:
                 res_img_name = s_img_url.split('/')[-1].split('.')[:-1][0]
                 save_img(s_img_url, res_img_name,file_path)
@@ -43,7 +44,6 @@ if __name__ == '__main__':
             res_img_name = res_img_url.split('/')[-1].split('.')[:-1][0]
             save_img(res_img_url, res_img_name,file_path)
             print (line)
-            path_i = path_i + 1
         except:
             continue
     
