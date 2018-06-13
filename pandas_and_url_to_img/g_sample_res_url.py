@@ -36,25 +36,28 @@ if __name__ == '__main__':
     # 转为json的格式
     res_dic_json = json.loads(pd_data_res['作品内容'].to_json())
     for res_key in res_dic_json:
-        res_url_id = res_dic_json[res_key]
-        # 作品表的id
-        res_img_id = json.loads(res_url_id)['material_id']
-        if res_img_id == 0:
+        try:
+            res_url_id = res_dic_json[res_key]
+            # 作品表的id
+            res_img_id = json.loads(res_url_id)['material_id']
+            if res_img_id == 0:
+                continue
+            # 作品表的URL
+            res_img_url = json.loads(res_url_id)['picture']
+            print (res_img_id)
+        
+            # 用于保存模版的url。
+            # sample_dic_url_list = []
+            # print ( '>>>>', sample_img_url.values[res_img_id-1] )
+            # 减1的目的因为数组从0开始的。
+            sample_dic_jason = json.loads(sample_img_url.values[res_img_id-1])
+            for sample_key in sample_dic_jason:
+                print ('>>>>>>>>>>',sample_dic_jason[sample_key])
+                # sample_dic_url_list.append(sample_dic_jason[sample_key])
+                File.write(str(sample_dic_jason[sample_key]) + ' ')
+            File.write(str(res_img_url) + '\n' )
+        except:
             continue
-        # 作品表的URL
-        res_img_url = json.loads(res_url_id)['picture']
-        print (res_img_id)
-    
-        # 用于保存模版的url。
-        # sample_dic_url_list = []
-        # print ( '>>>>', sample_img_url.values[res_img_id-1] )
-        # 减1的目的因为数组从0开始的。
-        sample_dic_jason = json.loads(sample_img_url.values[res_img_id-1])
-        for sample_key in sample_dic_jason:
-            print ('>>>>>>>>>>',sample_dic_jason[sample_key])
-            # sample_dic_url_list.append(sample_dic_jason[sample_key])
-            File.write(str(sample_dic_jason[sample_key]) + ' ')
-        File.write(str(res_img_url) + '\n' )
     # 生成每行包含多个模版和一个作品
     File.close()
 
