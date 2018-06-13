@@ -33,11 +33,13 @@ if __name__ == '__main__':
             # 获取到id作为文件名字
             path_i = img_url[0]
             file_path = 'img/' + str(path_i)
-            # 下面保存的是模版
-            sample_img_url = img_url[1:-1]
-            for s_img_url in sample_img_url:
-                res_img_name = s_img_url.split('/')[-1].split('.')[:-1][0]
-                save_img(s_img_url, res_img_name,file_path)
+            # 判断是否已经保存模版，已经保存了就要避免重复保存。
+            if not os.path.exists(file_path):
+                # 下面保存的是模版
+                sample_img_url = img_url[1:-1]
+                for s_img_url in sample_img_url:
+                    res_img_name = s_img_url.split('/')[-1].split('.')[:-1][0]
+                    save_img(s_img_url, res_img_name,file_path)
 
             # 下面保存的是作品图
             res_img_url = img_url[-1]
