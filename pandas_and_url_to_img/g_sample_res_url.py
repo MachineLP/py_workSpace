@@ -50,7 +50,7 @@ if __name__ == '__main__':
             # sample_dic_url_list = []
             # print ( '>>>>', sample_img_url.values[res_img_id-1] )
             # 减1的目的因为数组从0开始的。
-            sample_dic_jason = json.loads(sample_img_url.values[res_img_id-1])
+            sample_dic_jason = json.loads(sample_img_url.values[list(sample_img_id.values).index(res_img_id)])
             # 保存id， 用于找到一个id的图片
             File.write(str(res_img_id) + ' ')
             for sample_key in sample_dic_jason:
