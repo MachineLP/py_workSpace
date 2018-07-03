@@ -56,3 +56,21 @@ if __name__ == '__main__':
 	print ("MyThread:a+b=%d ! %s" % (t.get_result(),ctime()))
 
 	print ("all over %s" %ctime())
+
+
+# 使用举例：
+# 遍历所有的图片
+for path in img_path:
+    print (path)
+    # 对于每一张图片
+    img = cv2.imread(path)
+    if img is None:
+        continue
+    angles = [15,30,45,60,75,90,105,120,135,150,165,180,195,210,225,240,255,270,285,300,315,330,345]
+
+    threads = [threading.Thread(target=save_img, args=(img, angle, path, )) for angle in angles]
+
+    for t in threads:
+        t.start()  #启动一个线程
+    for t in threads:
+        t.join()  #等待每个线程执行结束
