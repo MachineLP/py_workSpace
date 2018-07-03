@@ -60,6 +60,7 @@ if __name__ == '__main__':
 
 # 使用举例：
 # 遍历所有的图片
+'''
 for path in img_path:
     print (path)
     # 对于每一张图片
@@ -74,3 +75,4 @@ for path in img_path:
         t.start()  #启动一个线程
     for t in threads:
         t.join()  #等待每个线程执行结束
+'''
