@@ -36,3 +36,6 @@ print (jsd.JSD_core(q,p))
 #--Result--
 #0.566811410952
 #0.566811410952
+
+
+在损失函数中的使用可以看看这个：https://blog.csdn.net/guolindonggld/article/details/79736508
