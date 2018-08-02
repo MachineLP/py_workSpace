@@ -3,6 +3,9 @@ import numpy as np
 import cv2
 from collections import Counter
 
+'''
+图片的颜色的提取， 这个还是很给的
+'''
 
 def dict2list(dic:dict):
     ''''' 将字典转化为列表 '''
@@ -14,7 +17,8 @@ def dict2list(dic:dict):
 def get_img_col_feature(img_name, k=10, top=5, alpha=10):
  
     img = cv2.imread(img_name)
-    img = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+    # img = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+    # img = cv2.cvtColor(img, cv2.COLOR_BGR2Luv)
     img = cv2.resize(img, (img.shape[1]//alpha, img.shape[0]//alpha))
     Z = img.reshape((-1,3))
     # convert to np.float32
