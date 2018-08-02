@@ -108,6 +108,20 @@ def color_Hist(filename):
     hist = cv2.calcHist([image], [0], None, [256], [0.0,255.0])
     return hist.flatten()
 
+# HSV颜色直方图
+def hsv_color_Hist(filename):
+    image = cv2.imread("lp.jpg")  
+    hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
+    h, s, v = cv2.split(hsv)
+    hist_b = cv2.calcHist([h], [0], None, [256], [0.0,255.0])
+    hist_g = cv2.calcHist([s], [0], None, [256], [0.0,255.0])
+    hist_r = cv2.calcHist([v], [0], None, [256], [0.0,255.0])
+    print ('>>>>>>>b', hist_b)
+    print ('>>>>>>>g', hist_g)
+    print ('>>>>>>>r', hist_r)
+    hist = hist_b*0.4 + hist_g*0.6 + hist_r*0.6
+    return hist.flatten()
+
 if __name__ == '__main__':
     '''
     mb_name = 'lp.jpg'
