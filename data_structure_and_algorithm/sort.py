@@ -1,5 +1,9 @@
 
 # coding=utf-8
+'''
+    数据结构与算法
+'''
+
 import time 
 import numpy as np
 
