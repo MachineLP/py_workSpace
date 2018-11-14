@@ -75,7 +75,7 @@ class Node:
 def reverse_list(node_head):
 
     prev_node = None
-
+    # 具体的可以查看：https://blog.csdn.net/feliciafay/article/details/6841115
     while node_head:
         next_node = node_head.next_node
         node_head.next_node = prev_node
