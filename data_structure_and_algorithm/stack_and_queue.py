@@ -181,11 +181,3 @@ if __name__ == '__main__':
     test_of_pal_checker()
     test_of_par_checker()
 
-
-
-
-
-
-
-
-
