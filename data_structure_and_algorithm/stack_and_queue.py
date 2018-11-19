@@ -1,7 +1,7 @@
 # coding = utf-8
 
 '''
-    根据大神的学习脚步
+    紧跟大神的学习脚步
 '''
 from queue import Queue
 
