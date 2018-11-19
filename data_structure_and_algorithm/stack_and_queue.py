@@ -79,8 +79,8 @@ def reverse_list(node_head):
     while node_head:
         next_node = node_head.next_node
         node_head.next_node = prev_node
-        prev_node = node_head
-        node_head = next_node
+        prev_node = node_head    # prev_node往前移
+        node_head = next_node    # node_head往前移
 
     return prev_node
 
