@@ -35,7 +35,8 @@ class Solution(object):
 
 ```
 
-```
+
+```python
 Runtime: 20 ms, faster than 100.00% of Python online submissions for Two Sum.
 class Solution(object):
     def twoSum(self, nums, target):
