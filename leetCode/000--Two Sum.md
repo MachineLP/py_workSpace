@@ -15,6 +15,7 @@ return [0, 1].
 
 
 ```python
+Runtime: 1192 ms, faster than 33.33% of Python online submissions for Two Sum.
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -32,4 +33,23 @@ class Solution(object):
                 return [i, j]
         return [] 
 
+```
+
+```
+Runtime: 20 ms, faster than 100.00% of Python online submissions for Two Sum.
+class Solution(object):
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        map = {}
+        for i in range(len(nums)):
+            if nums[i] not in map:
+                map[target - nums[i]] = i
+            else:
+                return map[nums[i]], i
+
+        return -1, -1
 ```
