@@ -226,36 +226,3 @@ data = np.hstack((np.reshape(scores1,[-1, 1]), np.reshape(scores2,[-1, 1]),np.re
 # 画 boxplot
 c_boxplot(data)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
