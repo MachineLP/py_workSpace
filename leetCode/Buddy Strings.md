@@ -33,7 +33,7 @@ A and B consist only of lowercase letters.
 ```
 
 ## Solution
-```
+```python
 class Solution:
     def buddyStrings(self, A, B):
         if len(A) == len(B):
