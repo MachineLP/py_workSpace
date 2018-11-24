@@ -21,6 +21,7 @@ Explanation: The answer is "wke", with the length of 3.
 ```
 
 ```python
+# Runtime: 800 ms, faster than 4.88% of Python online submissions for Longest Substring Without Repeating Characters.
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
         """
@@ -45,5 +46,33 @@ class Solution(object):
                 cur = d[s[cur]] + 1
                 d = {}
                 cur_length = 0
+
+```
+
+```python
+# Runtime: 44 ms, faster than 99.58% of Python online submissions for Longest Substring Without Repeating Characters.
+class Solution(object):
+    def lengthOfLongestSubstring(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        
+        d = {}
+        longest=0
+        cur = 0
+        cur_length = 0
+        
+        for index, i in enumerate(s):
+            if i in d and d[i] >= cur:
+                longest = max(cur_length, longest)
+                cur_length = index - d[i]
+                cur = d[i] + 1
+            else:
+                cur_length = cur_length + 1
+            d[i] = index
+        
+        return max(cur_length, longest)
+                
 
 ```
