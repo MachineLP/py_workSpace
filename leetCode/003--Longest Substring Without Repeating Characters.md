@@ -71,6 +71,7 @@ class Solution(object):
                 cur = d[i] + 1
             else:
                 cur_length = cur_length + 1
+            # 重复的会被覆盖哦
             d[i] = index
         
         return max(cur_length, longest)
