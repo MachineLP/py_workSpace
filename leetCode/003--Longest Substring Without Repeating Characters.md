@@ -64,6 +64,7 @@ class Solution(object):
         cur_length = 0
         
         for index, i in enumerate(s):
+            # d[i] >= cur 只关注上一次节点之后的。
             if i in d and d[i] >= cur:
                 longest = max(cur_length, longest)
                 cur_length = index - d[i]
