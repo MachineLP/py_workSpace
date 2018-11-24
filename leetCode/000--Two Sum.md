@@ -23,8 +23,6 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        if nums == []:
-            return []
         for i in range(len(nums)):
             temp = target - nums[i]
             new_nums = nums[:i] + nums[i+1:]
