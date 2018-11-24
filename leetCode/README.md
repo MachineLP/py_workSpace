@@ -1,7 +1,7 @@
 
 ## leetCode 刷题
 
-#  | Title   | Solution | Difficulty
+...  | Title   | Solution | Difficulty
 
 ------ | ------ | -------- | -----
 
