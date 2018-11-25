@@ -30,6 +30,7 @@ class Solution(object):
         :type nums2: List[int]
         :rtype: float
         """
+        
         nums1.extend(nums2)
         nums1.sort()
         if len(nums1)%2 == 0:
@@ -51,6 +52,7 @@ class Solution(object):
         :type nums2: List[int]
         :rtype: float
         """
+        
         a, b = sorted((nums1, nums2), key=len)
         m, n = len(a), len(b)
         after = (m + n - 1) / 2
