@@ -50,6 +50,7 @@ class Solution(object):
         :type nums1: List[int]
         :type nums2: List[int]
         :rtype: float
+        
         a, b = sorted((nums1, nums2), key=len)
         m, n = len(a), len(b)
         after = (m + n - 1) / 2
