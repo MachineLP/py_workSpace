@@ -1,5 +1,5 @@
 
-MachineLP的工具包： (只是为了自己后面查找代码方便，如有侵犯请微信联系machinelp：lp9628)
+## MachineLP的工具包： (只是为了自己后面查找代码方便，如有侵犯请微信联系machinelp：lp9628)
 
 py_txt.py : 统计文字的个数。（python3中字典排序的问题）
 
