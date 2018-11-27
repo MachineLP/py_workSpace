@@ -40,3 +40,8 @@ class Solution(object):
             l -= 1; r += 1
         return s[l+1:r]
 ```
+
+
+```python
+# 还可以再优化，可这里：https://mp.weixin.qq.com/s/t7Q0slX3q8Qlhg8F8pXrZQ 
+```
