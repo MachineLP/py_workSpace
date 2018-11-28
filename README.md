@@ -9,4 +9,4 @@ threads.py：python中的多线程。
 
 img_video.py：将图片转为视频保存。
 
-leetCode：LeetCode Algorithm
+leetCode：[LeetCode Algorithm](https://github.com/MachineLP/py_workSpace/tree/master/leetCode)
