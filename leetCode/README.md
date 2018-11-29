@@ -11,5 +11,6 @@
 005 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/005--Longest%20Palindromic%20Substring.md) | Medium
 006 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/006--ZigZag%20Conversion.md) | Easy
 007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/007--Reverse%20Integer.md) | Easy
+008 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/008--String%20to%20Integer%20(atoi).md) | Easy
 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/859--Buddy%20Strings.md) | Easy
 
