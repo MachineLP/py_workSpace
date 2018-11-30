@@ -68,6 +68,58 @@ def gradients_penalty(x, y, mask=None, norm=1.):
     slopes = tf.sqrt(tf.reduce_sum(tf.square(gradients) * mask, axis=[1, 2, 3]))
     return tf.reduce_mean(tf.square(slopes - norm))
 
+
+def discriminator_loss(loss_func, real, fake, real_blur):
+    real_loss = 0
+    fake_loss = 0
+    real_blur_loss = 0
+
+
+    if loss_func == 'wgan-gp' or loss_func == 'wgan-lp':
+        real_loss = -tf.reduce_mean(real)
+        fake_loss = tf.reduce_mean(fake)
+        real_blur_loss = tf.reduce_mean(real_blur)
+
+    if loss_func == 'lsgan' :
+        real_loss = tf.reduce_mean(tf.square(real - 1.0))
+        fake_loss = tf.reduce_mean(tf.square(fake))
+        real_blur_loss = tf.reduce_mean(tf.square(real_blur))
+
+    if loss_func == 'gan' or loss_func == 'dragan' :
+        real_loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(labels=tf.ones_like(real), logits=real))
+        fake_loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(labels=tf.zeros_like(fake), logits=fake))
+        real_blur_loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(labels=tf.zeros_like(real_blur), logits=real_blur))
+
+    if loss_func == 'hinge':
+        real_loss = tf.reduce_mean(relu(1.0 - real))
+        fake_loss = tf.reduce_mean(relu(1.0 + fake))
+        real_blur_loss = tf.reduce_mean(relu(1.0 + real_blur))
+
+    loss = real_loss + fake_loss + real_blur_loss
+
+    return loss
+
+def generator_loss(loss_func, fake):
+    fake_loss = 0
+
+    if loss_func == 'wgan-gp' or loss_func == 'wgan-lp':
+        fake_loss = -tf.reduce_mean(fake)
+
+    if loss_func == 'lsgan' :
+        fake_loss = tf.reduce_mean(tf.square(fake - 1.0))
+
+    if loss_func == 'gan' or loss_func == 'dragan':
+        fake_loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(labels=tf.ones_like(fake), logits=fake))
+
+    if loss_func == 'hinge':
+        fake_loss = -tf.reduce_mean(fake)
+
+    loss = fake_loss
+
+    return loss
+
+
+
 if __name__ == "__main__":
 
     LAMBDA = 10
