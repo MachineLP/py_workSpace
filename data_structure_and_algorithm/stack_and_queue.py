@@ -84,6 +84,12 @@ def reverse_list(node_head):
 
     return prev_node
 
+def reverse_list_cp(node_head):
+    cur, prev = node_head, None
+    while cur:
+        cur.next, prev, cur = prev, cur, cur.next
+    return prev
+
 def init_list():
     n1 = Node(1)
     n2 = Node(2)
