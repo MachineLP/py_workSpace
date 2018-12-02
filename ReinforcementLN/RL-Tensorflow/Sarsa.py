@@ -112,8 +112,4 @@ if __name__ == "__main__":
     q_table = rl()
     print('\r\nQ-table:\n')
     print(q_table)
---------------------- 
-作者：MachineLP 
-来源：CSDN 
-原文：https://blog.csdn.net/u014365862/article/details/79240997 
-版权声明：本文为博主原创文章，转载请附上博文链接！
+
