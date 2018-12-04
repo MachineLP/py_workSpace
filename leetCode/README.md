@@ -18,6 +18,7 @@
 012 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/012--Integer%20to%20Roman.md) | Medium
 013 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/013--Roman%20to%20Integer.md) | Easy
 014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/014--Longest%20Common%20Prefix.md) | Easy
+015 | [3Sum](https://leetcode.com/problems/3sum/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/015--3Sum.md) | Medium
 094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/094--Binary%20Tree%20Inorder%20Traversal.md) | Medium
 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/859--Buddy%20Strings.md) | Easy
 
