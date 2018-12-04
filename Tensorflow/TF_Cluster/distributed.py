@@ -18,7 +18,7 @@ cost_op = tf.square(Y -  tf.multiply(X, w) - b)
 train_op = tf.train.GradientDescentOptimizer(learning_rate=0.01).minimize(cost_op)
 
 
-for i,l in enumerate(['grpc://localhost:22575', 'grpc://172.16.2.5:22575']):
+for i,l in enumerate(['grpc://172.16.2.69:22575', 'grpc://172.16.2.5:22575']):
     with tf.Session(l) as sess:
         # worker_device = '/job:worker/task%d/cpu:0' % FLAGS.task_index
         with tf.device('/job:woker/task:0'):
