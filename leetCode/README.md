@@ -24,6 +24,7 @@
 018 | [4Sum](https://leetcode.com/problems/4sum/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/018--4Sum.md) | Medium
 019 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/019--Remove%20Nth%20Node%20From%20End%20of%20List.md) | Easy
 020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/020--Valid%20Parentheses.md) | Easy
+021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/021--Merge%20Two%20Sorted%20Lists.md) | Easy
 094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/094--Binary%20Tree%20Inorder%20Traversal.md) | Medium
 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/859--Buddy%20Strings.md) | Easy
 
