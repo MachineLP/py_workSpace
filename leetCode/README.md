@@ -27,6 +27,7 @@
 021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/021--Merge%20Two%20Sorted%20Lists.md) | Easy
 022 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/022--Generate%20Parentheses.md) | Medium
 023 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/023--Merge%20k%20Sorted%20Lists.md) | Hard
+024 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/024--Swap%20Nodes%20in%20Pairs.md) | Medium
 094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/094--Binary%20Tree%20Inorder%20Traversal.md) | Medium
 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/859--Buddy%20Strings.md) | Easy
 
