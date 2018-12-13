@@ -29,6 +29,8 @@
 023 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/023--Merge%20k%20Sorted%20Lists.md) | Hard
 024 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/024--Swap%20Nodes%20in%20Pairs.md) | Medium
 025 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/025--Reverse%20Nodes%20in%20k-Group.md) | Hard
+026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/026--Remove%20Duplicates%20from%20Sorted%20Array.md) | Easy
+027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/027--Remove%20Element.md) | Easy
 094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/094--Binary%20Tree%20Inorder%20Traversal.md) | Medium
 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/859--Buddy%20Strings.md) | Easy
 
