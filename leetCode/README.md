@@ -32,6 +32,7 @@
 026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/026--Remove%20Duplicates%20from%20Sorted%20Array.md) | Easy
 027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/027--Remove%20Element.md) | Easy
 028 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/028--Implement%20strStr().md) | Easy
+029 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/029--Divide%20Two%20Integers.md) | Medium
 094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/094--Binary%20Tree%20Inorder%20Traversal.md) | Medium
 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/859--Buddy%20Strings.md) | Easy
 
