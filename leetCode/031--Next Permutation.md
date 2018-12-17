@@ -15,5 +15,25 @@ Here are some examples. Inputs are in the left-hand column and its corresponding
 
 
 ```python
-
+class Solution(object):
+    def nextPermutation(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: void Do not return anything, modify nums in-place instead.
+        """
+        nums_length = len(nums)
+        if (nums_length <1 ):
+            return 
+        
+        for i in range(nums_length-1, 0, -1):
+            if nums[i-1] < nums[i]:
+                j = nums_length-1
+                while nums[i-1] >= nums[j]:
+                    j -= 1
+                nums[i-1], nums[j] = nums[j], nums[i-1]
+                nums[i:] = list( reversed( nums[i:] ) )
+                return 
+            if i==1:
+                nums[:] = list( reversed( nums[:] ) )
+                return 
 ```
