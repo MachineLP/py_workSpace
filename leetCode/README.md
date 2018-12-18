@@ -35,6 +35,7 @@
 029 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/029--Divide%20Two%20Integers.md) | Medium
 030 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/030--Substring%20with%20Concatenation%20of%20All%20Words.md) | Hard
 031 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/031--Next%20Permutation.md) | Medium
+032 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/032%20--%20Longest%20Valid%20Parentheses.md) | Hard
 094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/094--Binary%20Tree%20Inorder%20Traversal.md) | Medium
 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/859--Buddy%20Strings.md) | Easy
 
