@@ -40,6 +40,7 @@
 034 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/034--Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.md) | Medium
 035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/035--Search%20Insert%20Position.md) | Medium
 036 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/036--Valid%20Sudoku.md) | Medium
+037 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/037--Sudoku%20Solver.md) | Hard
 094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/094--Binary%20Tree%20Inorder%20Traversal.md) | Medium
 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/859--Buddy%20Strings.md) | Easy
 
