@@ -2,8 +2,8 @@
 ## leetCode
 
 
-...    | Title   | Solution  |  Difficulty
--------- | -------- | -------- | --------
+...    | Title   | Solution  |  Difficulty |
+-------- | -------- | -------- | -------- | --------
 001 | [Two Sum](https://oj.leetcode.com/problems/two-sum/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/001--Two%20Sum.md) | Medium
 002 | [Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/002--Add%20Two%20Numbers.md) | Medium
 003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/003--Longest%20Substring%20Without%20Repeating%20Characters.md) | Medium
@@ -43,8 +43,8 @@
 037 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/037--Sudoku%20Solver.md) | Hard
 038 | [Count and Say](https://leetcode.com/problems/count-and-say/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/038--Count%20and%20Say.md) | Easy
 039 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/039--Combination%20Sum.md) | Medium
-040 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/040--Combination%20Sum%20II.md) | Medium
-094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/094--Binary%20Tree%20Inorder%20Traversal.md) | Medium
+040 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/040--Combination%20Sum%20II.md) | Medium | 回溯
+094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/094--Binary%20Tree%20Inorder%20Traversal.md) | Medium | 回溯、贪心
 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/859--Buddy%20Strings.md) | Easy
 
 
