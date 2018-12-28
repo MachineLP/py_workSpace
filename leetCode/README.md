@@ -43,6 +43,7 @@
 037 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/037--Sudoku%20Solver.md) | Hard
 038 | [Count and Say](https://leetcode.com/problems/count-and-say/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/038--Count%20and%20Say.md) | Easy
 039 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/039--Combination%20Sum.md) | Medium
+040 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/040--Combination%20Sum%20II.md) | Medium
 094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/094--Binary%20Tree%20Inorder%20Traversal.md) | Medium
 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/859--Buddy%20Strings.md) | Easy
 
