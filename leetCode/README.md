@@ -45,7 +45,8 @@
 039 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/039--Combination%20Sum.md) | Medium | 回溯
 040 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/040--Combination%20Sum%20II.md) | Medium | 回溯、贪心
 041 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/041--First%20Missing%20Positive.md) | Hard 
-042 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/042--Trapping%20Rain%20Water.md) | Hard 
+042 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/042--Trapping%20Rain%20Water.md) | Hard
+043 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/043--Multiply%20Strings.md) | Medium
 094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/094--Binary%20Tree%20Inorder%20Traversal.md) | Medium | 二叉树
 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/859--Buddy%20Strings.md) | Easy 
 
