@@ -47,7 +47,7 @@ Output: false
 ```
 
 
-```
+```python
 class Solution(object):
     def isMatch(self, s, p):
         """
