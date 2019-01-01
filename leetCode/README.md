@@ -50,6 +50,7 @@
 044 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/044--Wildcard%20Matching.md) | Medium
 045 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/045--Jump%20Game%20II.md) | Hard
 046 | [Permutations](https://leetcode.com/problems/permutations/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/046--Permutations.md) | Hard | 全排列，递归回溯～039/040
+047 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/047--Permutations%20II.md) | Hard | 递归回溯～039/040/046
 094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/094--Binary%20Tree%20Inorder%20Traversal.md) | Medium | 二叉树
 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/859--Buddy%20Strings.md) | Easy 
 
