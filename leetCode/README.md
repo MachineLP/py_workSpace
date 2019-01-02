@@ -47,7 +47,7 @@
 041 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/041--First%20Missing%20Positive.md) | Hard 
 042 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/042--Trapping%20Rain%20Water.md) | Hard
 043 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/043--Multiply%20Strings.md) | Medium
-044 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/044--Wildcard%20Matching.md) | Medium
+044 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/044--Wildcard%20Matching.md) | Medium | 动态规划/贪心
 045 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/045--Jump%20Game%20II.md) | Hard
 046 | [Permutations](https://leetcode.com/problems/permutations/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/046--Permutations.md) | Hard | 全排列，递归回溯～039/040
 047 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/047--Permutations%20II.md) | Hard | 递归回溯～039/040/046
