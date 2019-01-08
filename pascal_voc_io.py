@@ -171,7 +171,7 @@ class PascalVocReader:
         return True
 
 
-f __name__ == '__main__':
+if __name__ == '__main__':
     # 画出矩形框
     folder_name = 'lp'
     img_name = '1.png'
@@ -215,3 +215,4 @@ f __name__ == '__main__':
     
     out_xml = img_name.split('.')[-2] + '.xml'
     p_voc.save(targetFile=out_xml)
+
