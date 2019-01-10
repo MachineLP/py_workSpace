@@ -45,6 +45,7 @@ class Solution(object):
             res.append(path)
             return  # backtracking
         for i in xrange(len(nums)):
+            # 第index行第i列； index表示的是行，nums中的数值表示的是列。 
             nums[index] = i
             if self.valid(nums, index):  # pruning
                 tmp = "."*len(nums)
