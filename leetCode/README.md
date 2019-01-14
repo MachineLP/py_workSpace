@@ -55,6 +55,7 @@
 049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/049--Group%20Anagrams.md) | Medium
 050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/050--Pow(x%2C%20n).md) | Medium
 051 | [N-Queens](https://leetcode.com/problems/n-queens/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/051--N-Queens.md) | Medium
+052 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/052--N-Queens%20II.md) | Medium
 094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/094--Binary%20Tree%20Inorder%20Traversal.md) | Medium | 二叉树
 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/859--Buddy%20Strings.md) | Easy 
 
