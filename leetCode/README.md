@@ -57,6 +57,7 @@
 051 | [N-Queens](https://leetcode.com/problems/n-queens/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/051--N-Queens.md) | Medium
 052 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/052--N-Queens%20II.md) | Medium
 053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/053--Maximum%20Subarray.py) | Easy
+054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/054--Spiral%20Matrix.md) | Medium
 094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/094--Binary%20Tree%20Inorder%20Traversal.md) | Medium | 二叉树
 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/859--Buddy%20Strings.md) | Easy 
 
