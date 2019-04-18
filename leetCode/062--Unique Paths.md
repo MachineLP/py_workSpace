@@ -26,7 +26,7 @@ Output: 28
 Above is a 7 x 3 grid. How many possible unique paths are there?
 
 
-```
+```python
 class Solution(object):
     def uniquePaths(self, m, n):
         """
