@@ -22,7 +22,7 @@ Example 2:
 Input: m = 7, n = 3
 Output: 28
 ```
-[!image](https://assets.leetcode.com/uploads/2018/10/22/robot_maze.png)
+![image](https://assets.leetcode.com/uploads/2018/10/22/robot_maze.png)
 Above is a 7 x 3 grid. How many possible unique paths are there?
 
 
