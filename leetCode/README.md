@@ -68,6 +68,7 @@
 062 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/062--Unique%20Paths.md) | Medium
 063 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/063--Unique%20Paths%20II.md) | Medium
 064 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/064--Minimum%20Path%20Sum.md) | Medium
+065 | [Valid Number](https://leetcode.com/problems/valid-number/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/065--Valid%20Number.md) | Hard
 094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/094--Binary%20Tree%20Inorder%20Traversal.md) | Medium | 二叉树
 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/859--Buddy%20Strings.md) | Easy 
 
