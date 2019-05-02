@@ -71,6 +71,7 @@
 065 | [Valid Number](https://leetcode.com/problems/valid-number/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/065--Valid%20Number.md) | Hard
 066 | [Plus One](https://leetcode.com/problems/plus-one/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/066--Plus%20One.md) | Easy
 067 | [Add Binary](https://leetcode.com/problems/add-binary/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/067--Add%20Binary.md) | Easy
+068 | [Text Justification](https://leetcode.com/problems/text-justification/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/068--Text%20Justification.md) | Hard
 094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/094--Binary%20Tree%20Inorder%20Traversal.md) | Medium | 二叉树
 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/859--Buddy%20Strings.md) | Easy 
 
