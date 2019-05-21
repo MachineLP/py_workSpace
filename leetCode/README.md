@@ -75,6 +75,7 @@
 069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/069--Sqrt(x).md) | Easy
 070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/070--Climbing%20Stairs.md) | Easy
 071 | [Simplify Path](https://leetcode.com/problems/simplify-path/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/071--Simplify%20Path.md) | Medium
+072 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/072--Edit%20Distance.md) | Medium
 094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/094--Binary%20Tree%20Inorder%20Traversal.md) | Medium | 二叉树
 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | [python](https://github.com/MachineLP/py_workSpace/blob/master/leetCode/859--Buddy%20Strings.md) | Easy 
 
