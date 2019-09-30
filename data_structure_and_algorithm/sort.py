@@ -167,7 +167,7 @@ def quick_sort(alist, fst, lst):
         return
     pivot = alist[fst]
     i, j = fst + 1, lst
-    while i < j:
+    while i <= j:
         while alist[i] < pivot:
             i += 1
         while alist[j] > pivot:
